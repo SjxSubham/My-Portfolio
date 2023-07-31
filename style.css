@@ -44,11 +44,7 @@ nav ul li {
 }
 .leftSection {
   font-size: 2rem;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 30px 0;
 }
 .leftSection .buttons {
   padding: 50px 0;
@@ -244,7 +240,35 @@ main hr {
   left: -55px;
   width: 150px;
 }
+.ver-title2 {
+  position: relative;
+  top: 90px;
+  left: -55px;
+  width: 150px;
+}
+.ver-title3 {
+  position: relative;
+  top: 90px;
+  left: -55px;
+  width: 150px;
+}
 .ver-desc1 {
+  position: relative;
+  top: 100px;
+  left: -55px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+.ver-desc2 {
+  position: relative;
+  top: 100px;
+  left: -55px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+.ver-desc3 {
   position: relative;
   top: 100px;
   left: -55px;
@@ -301,18 +325,12 @@ footer .footer-text-contact {
     flex-direction: column;
   }
 
-  .thirdSection {
-    display: none;
-  }
   .firstSection {
     flex-direction: column-reverse;
   }
   .firstSection .leftSection {
-    width: 100% !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-size: 2rem;
+    margin: 30px 0;
   }
   .firstSection .rightSection img {
     width: 45vw;
@@ -324,7 +342,7 @@ footer .footer-text-contact {
     justify-content: center;
   }
   .Secondsection {
-    height: 552vh;
+    height: 156vh;
     margin: auto;
     max-width: 80vw;
   }
@@ -391,6 +409,42 @@ footer .footer-text-contact {
   .image-dsa {
     top: 223px;
   }
+  .thirdSection {
+    height: 51vh;
+  }
+  .thirdSection .hori-line1 {
+    flex-direction: column;
+  }
+  .thirdSection .ver-line1 {
+    height: 340px;
+  }
+  .thirdSection .ver-title1,
+  .ver-title2,
+  .ver-title3,
+  .ver-desc1,
+  .ver-desc2,
+  .ver-desc3 {
+    left: 33px;
+  }
+  .ver-title1 {
+    top: 40px;
+  }
+  .ver-desc1 {
+    top: 49px;
+  }
+  .ver-title2 {
+    top: 55px;
+  }
+  .ver-desc2 {
+    top: 64px;
+  }
+  .ver-title3 {
+    top: 71px;
+  }
+  .ver-desc3 {
+    top: 82px;
+  }
+
   body {
     min-width: fit-content;
   }
