@@ -103,34 +103,77 @@ main hr {
   background-color: white;
   margin: 0 120px;
 }
-.ver-title-dsa {
+.ver-title-html {
   position: relative;
-  top: 30px;
+  top: 32px;
   left: -50px;
   width: 150px;
 }
-.ver-title-html {
+.ver-desc-html {
   position: relative;
-  top: 30px;
+  top: 42px;
+  left: -50px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+.ver-title-css {
+  position: relative;
+  top: 16px;
+  left: -50px;
+  width: 150px;
+}
+.ver-desc-css {
+  position: relative;
+  top: 25px;
+  left: -50px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+.ver-title-javascript {
+  position: relative;
+  top: 32px;
+  left: -50px;
+  width: 150px;
+}
+.ver-desc-javascript {
+  position: relative;
+  top: 38px;
+  left: -50px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+.ver-title-java {
+  position: relative;
+  top: -2px;
+  left: -50px;
+  width: 150px;
+}
+.ver-desc-java {
+  position: relative;
+  top: 6px;
+  left: -50px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+.ver-title-dsa {
+  position: relative;
+  top: 31px;
   left: -50px;
   width: 150px;
 }
 .ver-desc-dsa {
   position: relative;
-  top: 45px;
+  top: 35px;
   left: -50px;
   color: gray;
   width: 150px;
   font-size: 9px;
 }
-.ver-desc-html {
-  position: relative;
-  top: 45px;
-  left: -50px;
-  color: gray;
-  width: 150px;
-  font-size: 9px;
-}
+
 .image-dsa {
   width: 53px;
   position: relative;
@@ -160,48 +203,6 @@ main hr {
   position: relative;
   top: -80px;
   left: -42px;
-}
-.ver-title-java {
-  position: relative;
-  top: 1px;
-  left: -50px;
-  width: 150px;
-}
-.ver-desc-java {
-  position: relative;
-  top: 15px;
-  left: -50px;
-  color: gray;
-  width: 150px;
-  font-size: 9px;
-}
-.ver-title-css {
-  position: relative;
-  top: 15px;
-  left: -50px;
-  width: 150px;
-}
-.ver-desc-css {
-  position: relative;
-  top: 30px;
-  left: -50px;
-  color: gray;
-  width: 150px;
-  font-size: 9px;
-}
-.ver-title-javascript {
-  position: relative;
-  top: 15px;
-  left: -50px;
-  width: 150px;
-}
-.ver-desc-javascript {
-  position: relative;
-  top: 30px;
-  left: -50px;
-  color: gray;
-  width: 150px;
-  font-size: 9px;
 }
 .thirdSection {
   max-width: 80vw;
