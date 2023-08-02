@@ -51,3 +51,24 @@ nav ul li {
   position: relative;
   top: 55px;
 }
+@media screen and (max-width: 1080px) {
+  body {
+    background-color: rgb(94, 3, 66);
+  }
+  nav {
+    flex-direction: column;
+    min-width: fit-content;
+  }
+  .rightsection img {
+    width: 20vh !important;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+  .leftsection {
+    width: 72% !important;
+  }
+  .section {
+    flex-direction: column-reverse;
+  }
+}
