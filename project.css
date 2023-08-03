@@ -127,9 +127,6 @@ body hr {
   color: white;
 }
 @media screen and (max-width: 1080px) {
-  body {
-    background-color: rgb(57, 66, 3);
-  }
   nav {
     flex-direction: column;
     min-width: fit-content;

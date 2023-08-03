@@ -52,9 +52,6 @@ nav ul li {
   top: 55px;
 }
 @media screen and (max-width: 1080px) {
-  body {
-    background-color: rgb(94, 3, 66);
-  }
   nav {
     flex-direction: column;
     min-width: fit-content;
