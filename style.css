@@ -752,6 +752,9 @@ footer .footer-text-contact {
     flex-direction: column;
     min-width: fit-content;
   }
+  .right li {
+    margin: 0 16px;
+  }
   .firstSection {
     flex-direction: column-reverse;
   }
