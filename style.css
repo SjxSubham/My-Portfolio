@@ -844,7 +844,7 @@ footer .footer-text-contact {
     align-items: center;
   }
   .footer {
-    padding: 18px 27px;
+    padding: -3vh -17vh;
     flex-direction: column;
   }
   hr {
