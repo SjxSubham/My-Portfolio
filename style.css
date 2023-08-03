@@ -761,6 +761,7 @@ footer .footer-text-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .firstSection .rightSection {
     width: 72% !important;
@@ -812,16 +813,16 @@ footer .footer-text-contact {
     margin: 0 3vh;
   }
   .ver-title2 {
-    top: 56px;
+    top: 68px;
   }
   .ver-desc2 {
-    top: 62px;
+    top: 71px;
   }
   .ver-title3 {
-    top: 66px;
+    top: 85px;
   }
   .ver-desc3 {
-    top: 69px;
+    top: 88px;
   }
   .thirdSection footer {
     display: none;
