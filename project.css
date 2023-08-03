@@ -126,3 +126,65 @@ body hr {
   text-decoration: none;
   color: white;
 }
+@media screen and (max-width: 1080px) {
+  body {
+    background-color: rgb(57, 66, 3);
+  }
+  nav {
+    flex-direction: column;
+    min-width: fit-content;
+  }
+  .firstsection {
+    flex-direction: column-reverse;
+  }
+  .rightsection img {
+    width: 50% !important;
+    left: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5vh;
+    margin-right: 5vh;
+  }
+  .leftsection {
+    /**width: 72% !important;**/
+    font-size: 5vh;
+    top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secondsection {
+    flex-direction: column-reverse;
+  }
+  .rightsection1 img {
+    width: 50% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .leftsection1 {
+    width: 72% !important;
+    top: 8vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+  }
+  .thirdsection {
+    flex-direction: column-reverse;
+  }
+  .rightsection2 img {
+    width: 50% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .leftsection2 {
+    width: 72% !important;
+    top: 8vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+  }
+}
