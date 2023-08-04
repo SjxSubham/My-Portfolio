@@ -134,6 +134,9 @@ body hr {
   .firstsection {
     flex-direction: column-reverse;
   }
+  .right li {
+    margin: 0 16px;
+  }
   .rightsection img {
     width: 50% !important;
     left: 10vh;
